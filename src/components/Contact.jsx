@@ -1,6 +1,6 @@
 
 
-const contact = () => {
+const Contact = () => {
   return (
     <div>
       <h1 className="text-3xl bg-gradient-to-r from-blue-500 to-black-800 text-transparent bg-clip-text text-center">Contact Us</h1>
@@ -10,4 +10,4 @@ const contact = () => {
   )
 }
 
-export default contact;
+export default Contact;

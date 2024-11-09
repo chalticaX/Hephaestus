@@ -4,14 +4,6 @@ import Hero from './components/Hero';
 import Info from './components/Info';
 import Contact from './components/Contact';
 
-export const navItems = [
-
-  { label: "Features", href: "#"},
-  { label: "Explore", href: "#"},
-  { label: "contact", href: "#"},
-
-
-];
 
 const App = () => {
   return (
@@ -30,7 +22,7 @@ const App = () => {
   
 
       
-      <footer className="text-center py-3">
+      <footer className=" text-center bg-gradient-to-r from-blue-500 to-black-800 py-2 px-3">
         &copy; {new Date().getFullYear()} HEPHAESTUS. All rights reserved.
       </footer>
     </div>
