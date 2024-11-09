@@ -1,36 +1,12 @@
 import React from 'react';
-import { Navbar, Nav, Container, Row, Col, Button } from 'react-bootstrap';
-import './App.css';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <div>
-      {/* Navbar */}
-      <Navbar id="nav1" expand="lg" fixed="top">
-        <Container className="justify-content-between">
-          {/* Left side: Logo */}
-          <Navbar.Brand href="/" className="d-flex align-items-center">
-            <img
-              src="./sc1.jpg" /* Replace with your logo file path */
-              alt="Logo"
-              style={{ width: '40px', height: '40px', marginRight: '10px' }}
-            />
-          </Navbar.Brand>
-
-          {/* Center: Brand Name */}
-          <Navbar.Brand className="mx-auto">HEPHAESTUS</Navbar.Brand>
-
-          {/* Right side: Toggler with nav links */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-            <Nav>
-              <Nav.Link href="#introduction">Home</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+     
+     <Navbar />
 
       {/* Introduction Section */}
       <section id="introduction" className="section bg-light text-center">
