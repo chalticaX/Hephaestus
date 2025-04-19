@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
  
             <div className="flex items-center flex-shrink-0">
-              <img className="h-16 w-16 mr-2" src={logo} alt="logo" />
+              {/* <img className="h-16 w-16 mr-2" src={logo} alt="logo" /> */}
               <span className="text-xl tracking-tight">Hephaestus</span>
             </div>
 

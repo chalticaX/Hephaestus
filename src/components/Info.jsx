@@ -1,4 +1,8 @@
-import img2 from "../assets/dono1.jpg";
+import img3 from "../assets/h1.jpg";
+import img4 from "../assets/h2.jpg";
+import img7 from "../assets/h5.jpg";
+import img8 from "../assets/h6.jpg";
+import img9 from "../assets/h7.jpg";
 
 
 const Info = () => {
@@ -18,9 +22,17 @@ const Info = () => {
             We are Currently based in Nairobi,Kenya where most of our operations take place , Our plan through 2024/2025 is to reach out to as many person's with disabilities in Kenya and Beyond , All proceedings and from the Donations will go to Charity and Community development. 
          </p>
 
-            <div className="flex flex-wrap justify-center" >
+            <div className=" ml-8 columns-sm  justify-center" >
                 <div className="w-80 my-10 lg:w-1/2" >
-                    <img src={img2} alt="code"/> 
+                    <img src={img3} alt="code"/> 
+                    <br></br>
+                    <img src={img4} alt="code"/> 
+                    <br></br>
+                    <img src={img7} alt="code"/>
+                    <br></br>
+                    <img src={img8} alt="code"/> 
+                    <br></br>
+                    <img src={img9} alt="code"/> 
                 </div>
 
             </div>
