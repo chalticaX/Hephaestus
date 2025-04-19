@@ -23,16 +23,16 @@ const Info = () => {
          </p>
 
             <div className=" ml-8 columns-sm  justify-center" >
-                <div className="w-80 my-10 lg:w-1/2" >
-                    <img src={img3} alt="code"/> 
+                <div className="mt-6 lg:w-1/2" >
+                    <img className="rounded-lg w-1/2 border border-blue-700 shadow-blue-400" src={img3} alt="code"/> 
                     <br></br>
-                    <img src={img4} alt="code"/> 
+                    <img className="rounded-lg w-1/2 border border-blue-700 shadow-blue-400" src={img4} alt="code"/> 
                     <br></br>
-                    <img src={img7} alt="code"/>
+                    <img className="rounded-lg w-1/2 border border-blue-700 shadow-blue-400" src={img7} alt="code"/>
                     <br></br>
-                    <img src={img8} alt="code"/> 
+                    <img className="rounded-lg w-1/2 border border-blue-700 shadow-blue-400" src={img8} alt="code"/> 
                     <br></br>
-                    <img src={img9} alt="code"/> 
+                    <img className="rounded-lg w-1/2 border border-blue-700 shadow-blue-400" src={img9} alt="code"/> 
                 </div>
 
             </div>
